@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis Enlaces</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+    }
+
+    h1 {
+      margin-bottom: 25px;
+      color: #333;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .link-card {
+      display: block;
+      text-decoration: none;
+      background: #f5f7ff;
+      padding: 15px;
+      border-radius: 12px;
+      color: #333;
+      font-weight: bold;
+      transition: all 0.2s ease;
+      border: 2px solid transparent;
+    }
+
+    .link-card:hover {
+      background: #667eea;
+      color: white;
+      transform: translateY(-3px);
+      border-color: #4c63d2;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #777;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1> Mis Enlaces</h1>
+
+    <div class="links">
+      <!-- ENLACE 1 -->
+      <a href="https://danielillohub.github.io/proyecto-dual-hardware/inventario.xml" target="_blank" class="link-card">
+        XML
+      </a>
+
+      <!-- ENLACE 2 -->
+      <a href="https://danielillohub.github.io/proyecto-dual-hardware/index.html" target="_blank" class="link-card">
+        JSON
+      </a>
+    </div>
+
+    <div class="footer">
+      Haz clic para abrir los enlaces
+    </div>
+  </div>
+
+</body>
+</html>
