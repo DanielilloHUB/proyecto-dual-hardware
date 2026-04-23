@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "tipo": "Router",
+    "marca": "Cisco",
+    "modelo": "RV340",
+    "precio": 250
+  },
+  {
+    "id": 2,
+    "tipo": "Switch",
+    "marca": "TP-Link",
+    "modelo": "TL-SG108",
+    "precio": 40
+  },
+  {
+    "id": 3,
+    "tipo": "Servidor",
+    "marca": "Dell",
+    "modelo": "PowerEdge T40",
+    "precio": 600
+  },
+  {
+    "id": 4,
+    "tipo": "Router",
+    "marca": "MikroTik",
+    "modelo": "hEX S",
+    "precio": 70
+  }
+]

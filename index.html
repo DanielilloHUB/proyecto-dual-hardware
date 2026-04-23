@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inventario de Dispositivos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 900px;
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2a5298;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+
+    thead {
+      background: #2a5298;
+      color: white;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    tbody tr {
+      transition: 0.2s;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f5f7fa;
+    }
+
+    tbody tr:hover {
+      background: #dbe9ff;
+      transform: scale(1.01);
+    }
+
+    td {
+      border-bottom: 1px solid #eee;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 12px;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      th, td {
+        padding: 8px;
+        font-size: 12px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>💻 Inventario de Dispositivos</h1>
+
+    <!-- Contenedor donde se genera la tabla -->
+    <div id="contenedor"></div>
+
+    <div class="footer">
+      Sistema de inventario dinámico con JavaScript
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
