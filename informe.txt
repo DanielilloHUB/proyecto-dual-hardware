@@ -1,0 +1,46 @@
+1.
+
+Alumno A:
+Para ver el trabajo del compañero en mi ordenador, he tenido que hacer un git pull desde la rama main después de que se hiciera el merge del Pull Request.
+
+Alumno B:
+Además, si quería ver su rama antes del merge, podía hacer git fetch y cambiarme a su rama con git checkout rama-xml. Pero normalmente con hacer pull de main ya tenemos todo actualizado.
+
+2.
+
+Si borro una coma en el JSON, el archivo deja de ser válido. Entonces, el fetch falla al convertirlo con .json() y en la web no se muestra la tabla. En la consola del navegador aparece un error de parsing (JSON mal formado).
+
+Alumno A (XSL):
+Si cometo un error en el XSL, el navegador normalmente no aplica bien la transformación. Puede pasar que:
+
+No se muestre nada
+O aparezca el XML sin formato
+O salga un error de transformación en el navegador
+
+3. 
+
+Comparativa
+
+Alumno A:
+El método XML + XSLT es más rígido. Funciona bien, pero cuando hay muchos datos (como 10.000 dispositivos), puede volverse más pesado y difícil de manejar.
+
+Alumno B:
+JSON + JavaScript es más fácil de mantener porque:
+
+Es el estándar actual en aplicaciones web
+Permite manipular los datos fácilmente
+Escala mejor con grandes cantidades de información
+Se integra mejor con APIs
+
+Conclusión: Para un catálogo grande, JSON + JS es más práctico y mantenible.
+
+4. 
+
+Alumno A:
+Si los dos editamos el archivo index.html al mismo tiempo en nuestras ramas y luego hacemos merge, Git detecta un conflicto.
+
+Alumno B:
+Git no sabe qué versión es la correcta, así que marca el conflicto en el archivo con separadores. 
+
+Ambos:
+Tenemos que resolverlo manualmente, eligiendo qué cambios se quedan (o combinándolos), guardar el archivo corregido y hacer un commit para finalizar el merge.
