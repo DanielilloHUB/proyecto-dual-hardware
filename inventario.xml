@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="inventario.xsl"?>
+
+<inventario>
+    <dispositivo>
+        <id>1</id>
+        <tipo>Router</tipo>
+        <marca>Cisco</marca>
+        <modelo>RV340</modelo>
+        <precio>320</precio>
+    </dispositivo>
+
+    <dispositivo>
+        <id>2</id>
+        <tipo>Switch</tipo>
+        <marca>TP-Link</marca>
+        <modelo>TL-SG108</modelo>
+        <precio>45</precio>
+    </dispositivo>
+
+    <dispositivo>
+        <id>3</id>
+        <tipo>Servidor</tipo>
+        <marca>Dell</marca>
+        <modelo>PowerEdge T40</modelo>
+        <precio>650</precio>
+    </dispositivo>
+
+    <dispositivo>
+        <id>4</id>
+        <tipo>Router</tipo>
+        <marca>ASUS</marca>
+        <modelo>RT-AX58U</modelo>
+        <precio>180</precio>
+    </dispositivo>
+
+    <dispositivo>
+        <id>5</id>
+        <tipo>Switch</tipo>
+        <marca>Netgear</marca>
+        <modelo>GS308</modelo>
+        <precio>60</precio>
+    </dispositivo>
+</inventario>
